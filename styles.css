@@ -21,6 +21,7 @@
     align-items: center;
     padding: 6px;
 }
+
 .margin {
     margin-left:15px;
 }
@@ -53,4 +54,73 @@
 .gmail {
     margin: 0px 5px;
     Padding: 6px; 
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100%-560px);
+    font-family: josefin sans;
+}
+.G {
+    font-size: 6rem;
+    font-weight: 1000;
+    color: #4285F4;
+}
+.o1{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #db4437; 
+    margin: 6px; 
+}
+.o2{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #f4b400;  
+    margin: 6px; 
+}
+.gk{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #4285f4;
+    margin: 6px;   
+}
+.l{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #0f9d58;  
+    margin: 6px; 
+}
+.e{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #db4437;
+    margin: 6px; 
+}
+.middleBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 160px;
+    padding: 20px;
+    font-family: josefin sans;
+}
+input[type=text] {
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 12px 20px 12px 40px;
+}
+input:focus{
+    outline: none;
+}
+#searchImg{
+    position: relative;
+    height: 20px;
+    right: 390px; 
 }
