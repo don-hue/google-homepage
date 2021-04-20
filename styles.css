@@ -110,10 +110,10 @@
 }
 input[type=text] {
     width: 400px;
-    height: 30px;
+    height: 44px;
     margin-left: 20px;
     border: 1px solid grey;
-    border-radius: 30px;
+    border-radius: 24px;
     padding: 12px 20px 12px 40px;
 }
 input:focus{
@@ -123,4 +123,34 @@ input:focus{
     position: relative;
     height: 20px;
     right: 390px; 
+}
+.buttonLeft {
+    top: 53px;
+    background-color: #f8f9fa;
+    border: 1px solid #grey;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 14px;
+    height: 36px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+.middle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 160px;
+    font-family: josefin sans;
+}
+.buttonRight {
+    top: 53px;
+    background-color: #f8f9fa;
+    border: 1px solid #grey;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
 }
