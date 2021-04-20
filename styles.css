@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.About {
+    display: inline-block;
+    padding: 5px; 
+    font-size: 14px;
+    margin-top: 0 5px;
+
+}
+.store {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0 5px;
+
+}
